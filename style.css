@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik";
+    transition: 0.1s;
+}
+
+body{
+    background: #1d1d1d;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+nav img{
+    width: 40px;
+    border-radius: 20px;
+}
+
+.sub-account, 
+.mlogo,
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+}
+
+.navigation{
+    width: 300px;
+}
+
+svg:hover{
+    color: yellow;
+}
+
+input{
+    color: #8b8b8b;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    background: #3d3d3d;
+    border: 0;
+    outline: none;
+}
+
+main{
+    width: 100%;
+    height:87vh;
+    display: flex;
+}
+
+.header,
+.recent{
+    width: 25%;
+    height: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 50%;
+}
+
+.profile-badge{
+    width: 90%;
+    background: #3b3b3b;
+    border-radius: 20px;
+}
+
+.profile-badge .content{
+    padding: 15px 0;
+    gap: 10px;
+}
+
+.profile-badge img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.minfo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.minfo img{
+    border: #1d1d1d 10px solid;
+    border-radius: 20px;
+    margin-top: -50px;
+}
+
+.following{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-badge button{
+    background: #686767;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+}
+
+.tags{
+    padding: 20px;
+}
+
+.hashtags{
+    margin: 10px;
+}
+
+.hashtags button{
+    background: #8b8b8b;
+    color: #fff;
+    border:0;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.friend{
+    margin: 10px 0;
+    background:#3d3d3d;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.friend img{
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.stories{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.story img{
+    border: 5px yellow solid;
+    border-radius: 20px;
+}
+
+.mind{
+    width: 95%;
+    background: #3b3b3b;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    border-radius: 20px;
+    align-items: center;
+}
+
+
+.mind img{
+    border-radius: 10px;
+}
+
+.post{
+    width: 95%;
+    background: #3d3d3d;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.post-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-head div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-head h3{
+    margin: 0 10px;
+}
+
+.interactions{
+    padding: 10px;
+}
+
+.comment{
+    display: flex;
+    align-items: center;
+}
+
+.comment img{
+    margin-left: 30px;
+}
+
+.comment input{
+    width: 500px;
+    background: #1d1d1d;
+}
