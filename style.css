@@ -148,6 +148,7 @@ main{
     justify-content: space-around;
     align-items: center;
     margin: 10px 0;
+    width: 85%;
 }
 
 .story img{
@@ -156,7 +157,7 @@ main{
 }
 
 .mind{
-    width: 95%;
+    width: 85%;
     background: #3b3b3b;
     padding: 10px;
     display: flex;
@@ -171,11 +172,20 @@ main{
 }
 
 .post{
-    width: 95%;
+    width: 85%;
     background: #3d3d3d;
     border-radius: 20px;
     padding: 10px;
     margin-top: 10px;
+}
+
+.post p,.interactions{
+display: flex;
+
+}
+
+.post p{
+    justify-content: start;
 }
 
 .post-head{
@@ -202,11 +212,11 @@ main{
     align-items: center;
 }
 
-.comment img{
-    margin-left: 30px;
-}
-
 .comment input{
     width: 500px;
     background: #1d1d1d;
+}
+
+.post h4{
+    color: yellow;
 }
