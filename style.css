@@ -220,3 +220,129 @@ display: flex;
 .post h4{
     color: yellow;
 }
+
+.mind input{
+    width: 450px;
+    background: #1d1d1d;
+}
+
+@media screen and (max-width: 1296px) {
+    .friend {
+        width: 200px;
+    }
+
+    .mind input{
+        width: 400px;
+    }
+}
+
+
+
+@media screen and (max-width: 1150px) {
+    .profile-badge .minfo img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .mind input{
+        width: 300px;
+    }
+
+    .mlogo{
+        margin-left: 50px;
+    }
+
+    .sub-account{
+        width: auto;
+    }
+
+    .sub-account h3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .recent{
+        width: 0%;
+        display: none;
+    }
+
+    .header{
+        width: 30%;
+    }
+
+    .main{
+       width: 70%; 
+    }
+
+    .mind div{
+        width: 90%;
+    }
+    
+    .mind input{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    main{
+        justify-content: center;
+    }
+    .header{
+        width: 0%;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .main{
+        width: 90%;
+    }
+
+    .mlogo{
+        width: auto;
+    }
+
+    .mlogo form{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 564px) {
+    .navigation {
+        width: 200px;
+    }
+
+    .d1{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 466px) {
+    .d2{
+        display: none;
+    }
+
+    .comment input{
+        width: 80%;
+    }
+
+    .sub-account, .mlogo{
+        width: 0;
+        display: none;
+    }
+
+    .navigation {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .d3{
+        display: none;
+    }
+
+    .mind input{
+        width: 80%;
+    }
+}
